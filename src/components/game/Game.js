@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Team from "../team/Team";
 
-import Scoreboard from "../scoreboard/Scoreboard";
-import shotSound from "./Audio/Ball+Hit+Cheer.mp3";
-import scoreSound from "./Audio/woodbat.mp3";
+import Scoreboard from "../../scoreboard/Scoreboard";
+import shotSound from "../../Audio/Ball+Hit+Cheer.mp3";
+import scoreSound from "../../Audio/woodbat.mp3";
 // import logoSrc from "../../App";
 
 class Game extends Component {

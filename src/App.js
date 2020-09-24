@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import Game from "./components/game/Game";
 
-import Tifa from "./Images/Tifa.jpg;
-import Cloud from "./Images/Cloud.jpg";
-import Barrett from "./Images/Barrett.jpg";
-import Cid from "./Images/Cid.jpg";
+import Tifa from "../../Images/Tifa.jpg";
+import Cloud from "../../Images/Cloud.jpg";
+import Barrett from "../../Images/Barrett.jpg";
+import Cid from "../../Images/Cid.jpg";
 
 function App() {
   const tifa = {
@@ -29,8 +29,8 @@ function App() {
   };
   return (
     <div className="App">
-      <Game venue="Life Stream" homeTeam={Tifa} visitingTeam={Barrett} />
-      <Game venue="Midgar Arena" homeTeam={Cloud} visitingTeam={Cid} />
+      <Game venue="Life Stream" homeTeam={tifa} visitingTeam={barrett} />
+      <Game venue="Midgar Arena" homeTeam={cloud} visitingTeam={cid} />
     </div>
   );
 }
